@@ -30,14 +30,14 @@
 
 ```bash
 $ who
-sudheer :0 2019-08-04 01:21 (:0)
+Avani Punita :0 2019-08-04 01:21 (:0)
 ```
 
 2. **whoami:** It display the system’s username
 
 ```bash
 $ whoami
-sudheer
+Avani Punita
 ```
 
 3. **id:** It display the user identification(the real and effective user and group IDs) information
