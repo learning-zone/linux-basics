@@ -249,7 +249,7 @@ rm -rf myDir
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### File permissions
+## File permissions
 
 Since Linux is a multi-user operating system, it is necessary to provide security to prevent people from accessing each other’s confidential files.
 So Linux divides authorization into 2 levels,
