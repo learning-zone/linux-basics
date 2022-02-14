@@ -19,7 +19,7 @@
 | 9   | [**SSH**](#ssh)                                                         |
 | 10  | [**Vi/Vim-commands**](#vi/vim-commands)                                 |
 
-### User Information
+## User Information
 
 1. **who** It is used to get information about currently logged in user on to system. If you don't provide any option or arguments, the command displays the following information for each logged-in user.
 
@@ -133,7 +133,7 @@ news                                       **Never logged in**
   <b><a href="#">↥ back to top</a></b>
 </div>
 
-### File and directory commands
+## File and directory commands
 
 1. **pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
 
@@ -250,6 +250,7 @@ rm -rf myDir
 </div>
 
 ### File permissions
+
 Since Linux is a multi-user operating system, it is necessary to provide security to prevent people from accessing each other’s confidential files.
 So Linux divides authorization into 2 levels,
 
@@ -369,7 +370,7 @@ sudo chgrp Administrator test.txt
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### Networking
+## Networking
 
 1.  **Display network information:** `ifconfig` command is used to display all network information(ip address, ports etc)
 
@@ -413,7 +414,7 @@ ifconfig -a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### Installing packages
+## Installing packages
 
 1. **Install package:**
 
@@ -455,7 +456,7 @@ make install
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### Disk usage
+## Disk usage
 
 1.  **Synopsis:** `du` command is used to check the information of disk usage of files and directories on a machine
 
@@ -509,7 +510,7 @@ du  --help
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### System and Hardware information
+## System and Hardware information
 
 1.  **Print all information**: `uname` is mainly used to print system information.
 
@@ -545,7 +546,7 @@ $ uname -o
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### Search Files
+## Search Files
 
 1. **Pattern search:**
 The `grep` command is used to search patterns in files.
@@ -650,7 +651,7 @@ locate "*.txt" -n 10 // 10 file search results ending with .txt extension
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### SSH
+## SSH
 
 SSH (Secure Shell) is a network protocol that enables secure remote connections between two systems.
 
@@ -728,7 +729,7 @@ sudo sshd service restart
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-### Vi/Vim-commands
+## Vi/Vim-commands
 
 Vi editor is the most popular text editor from the early days of Unix. Whereas Vim(Vi IMproved) is an improved version of vi editor to be used in CLI (command line interface) for mainly text editing tasks in many configuration files. Some of the other alternatives are Elvis, Nvi, Nano, Joe, and Vile.
 It has two main operation modes,
