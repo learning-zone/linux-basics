@@ -123,14 +123,14 @@ news                                       **Never logged in**
 
 ## File and Directory Commands
 
-1. **pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
+1. **pwd** The pwd ( Present Working Directory ) command is used to print the name of the present/current working directory starting from the root.
 
 ```bash
 $ pwd
 /home/sj/Desktop/Linux
 ```
 
-2. **mkdir** The mkdir(make directory) command allows users to create directories or folders.
+2. **mkdir** The mkdir ( make directory ) command allows users to create directories or folders.
 
 ```bash
 $ mkdir ubuntu
@@ -146,7 +146,7 @@ $ cd dir1/dir2/dir3
 ~/Desktop/Linux/dir1/dir2/dir3$
 ```
 
-3. **rmdir**: The rmdir(remove directories) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
+3. **rmdir**: The rmdir ( remove directories ) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
 
    1. Remove empty directory:
 
@@ -172,7 +172,7 @@ rmdir FolderName1 --ignore-fail-on-non-empty
 rmdir -p a/b/c
 ```
 
-4. **rm**: The rm(remove) command is used to remove objects such as files, directories, symbolic links etc from the file system.
+4. **rm**: The rm ( remove ) command is used to remove objects such as files, directories, symbolic links etc from the file system.
    1. Remove file: The rm command is used to remove or delete a file
 
 ```bash
@@ -311,7 +311,7 @@ Each file or directory has following permissions for the above 3 types of owners
 There is a need to restrict own file/directory access to others.
 
 **Change access:**
-The `chmod` command is used to change the access mode of a file.  This command is used to set permissions (read, write, execute) on a file/directory for the owner, group and the others group.
+The `chmod` command is used to change the access mode of a file.  This command is used to set permissions ( read, write, execute ) on a file/directory for the owner, group and the others group.
 
 ```cmd
 chmod [reference][operator][mode] file...
@@ -402,8 +402,8 @@ For a directory, execute means you can enter a directory.
 
 | User | Group | Others | Description                                                                                          |
 | -    | -     | -      | -                                                                                                    |
-| 6    | 4     | 4      | User can read and write, everyone else can read (Default file permissions)                           |
-| 7    | 5     | 5      | User can read, write and execute, everyone else can read and execute (Default directory permissions) |
+| 6    | 4     | 4      | User can read and write, everyone else can read ( Default file permissions )                           |
+| 7    | 5     | 5      | User can read, write and execute, everyone else can read and execute ( Default directory permissions ) |
 
 - u - User
 - g - Group
@@ -428,7 +428,7 @@ chmod +x foo.sh          # Give everybody execute permission
 
 ## Networking
 
-1.  **Display network information:** `ifconfig` command is used to display all network information(ip address, ports etc)
+1.  **Display network information:** `ifconfig` command is used to display all network information ( ip address, ports etc )
 
 ```cmd
 ifconfig -a
@@ -690,7 +690,7 @@ The whereis command in Linux is used to locate the binary, source, and manual pa
 whereis command_name
 
 Example:
-whereis netstat //netstat:  /bin/netstat /usr/share/man/man8/netstat.8.gz(i.e, executable and location of its man page)
+whereis netstat //netstat:  /bin/netstat /usr/share/man/man8/netstat.8.gz ( i.e, executable and location of its man page )
 ```
 
 4. **Locate to find files:**
@@ -709,7 +709,7 @@ locate "*.txt" -n 10 // 10 file search results ending with .txt extension
 
 ## SSH
 
-SSH (Secure Shell) is a network protocol that enables secure remote connections between two systems.
+SSH ( Secure Shell ) is a network protocol that enables secure remote connections between two systems.
 
 1.  **Connect remote machine using IP address or machine name:** The remote server can be connected with local user name using either host name or IP address
 
@@ -746,7 +746,7 @@ ssh test.remoteserver.com -p 3322
 ssh-keygen -t rsa
 ```
 
-5.  **Copying SSH keys to servers:** For SSH authentication, `ssh-copy-id` command will be used to copy public key(id_rsa.pub) to server.
+5.  **Copying SSH keys to servers:** For SSH authentication, `ssh-copy-id` command will be used to copy public key ( id_rsa.pub ) to server.
 
 ```cmd
 ssh-copy-id hostname_or_IP
@@ -869,11 +869,11 @@ sudo sshd service restart
 
 ## Vi Editor
 
-Vi editor is the most popular text editor from the early days of Unix. Whereas Vim(Vi IMproved) is an improved version of vi editor to be used in CLI (command line interface) for mainly text editing tasks in many configuration files. Some of the other alternatives are Elvis, Nvi, Nano, Joe, and Vile.
+Vi editor is the most popular text editor from the early days of Unix. Whereas Vim ( Vi IMproved ) is an improved version of vi editor to be used in CLI ( command line interface ) for mainly text editing tasks in many configuration files. Some of the other alternatives are Elvis, Nvi, Nano, Joe, and Vile.
 It has two main operation modes,
 
 1.  **Command Mode:** It allows the entry of commands to manipulate text.
-2.  **Entry mode(Or Insert mode):** It allows typed characters on the keyboard into the current file.
+2.  **Entry mode ( Or Insert mode ):** It allows typed characters on the keyboard into the current file.
 
 #### 1. Start with Vi Editor
 
@@ -900,7 +900,7 @@ Let's see how do you create file, enter the content and leave the CLI by saving 
 
 ##### Move cursor
 
-You can use arrow keys(left, right, up and down) to move the cursor on the terminal. But you can also other keys for this behavior.
+You can use arrow keys ( left, right, up and down ) to move the cursor on the terminal. But you can also other keys for this behavior.
 
 ```cmd
  h        # Move left
@@ -939,9 +939,9 @@ These commands used to moves all sides of the screen
 ```cmd
 Backspace # Move cursor one character to the left
 Spacebar  # Move cursor one character to the right
-H(High)   # Move cursor to the top of the screen
-M(Middle) # Move cursor to the middle of the screen
-L(Low)    # Move cursor to the bottom of the screen
+H ( High )   # Move cursor to the top of the screen
+M ( Middle ) # Move cursor to the middle of the screen
+L ( Low )    # Move cursor to the bottom of the screen
 ```
 
 ##### Paging and Scrolling
@@ -970,8 +970,8 @@ ESC  # Exit insert mode
 ###### Append
 
 ```cmd
-a    # Insert(or Append) text to the right of the cursor
-A    # Insert(or Append) text at the end of a line
+a    # Insert ( or Append ) text to the right of the cursor
+A    # Insert ( or Append ) text at the end of a line
 ```
 
 ###### Open a line
@@ -1067,8 +1067,8 @@ O    # open a line above the current cursor position
    vii. Copy text between the cursor and character: Copy text between the cursor and specified character.
 
    ```cmd
-   ytx(Copy until x and x is excluded)
-   yfx(Copy until x and x is included)
+   ytx ( Copy until x and x is excluded )
+   yfx ( Copy until x and x is included )
    ```
 
    **Cut** There are various cutting or deleting commands based on amount of text to be deleted. The `d` character is used to perform this operation.
@@ -1105,8 +1105,8 @@ O    # open a line above the current cursor position
 
 2. **Visual Mode** In this mode, first select the text using below keys
 
-    1. v (lowercase): To select individual characters
-    2. V (uppercase): To select the entire line
+    1. v ( lowercase ): To select individual characters
+    2. V ( uppercase ): To select the entire line
     3. Ctrl+v: To select by block
 
     and perform copy, cut and paste operations using y,d and p commands
