@@ -22,7 +22,7 @@
 
 ## User Information
 
-1. **who** It is used to get information about currently logged in user on to system. If you don't provide any option or arguments, the command displays the following information for each logged-in user.
+* **who** It is used to get information about currently logged in user on to system. If you don\'t provide any option or arguments, the command displays the following information for each logged-in user.
 
     1. Login name of the user
     2. User terminal
@@ -34,28 +34,28 @@ $ who
 Avani Punita :0 2019-08-04 01:21 (:0)
 ```
 
-2. **whoami:** It display the system’s username
+* **whoami:** It display the system’s username
 
 ```bash
 $ whoami
 Avani Punita
 ```
 
-3. **id:** It display the user identification(the real and effective user and group IDs) information
+* **id:** It display the user identification(the real and effective user and group IDs) information
 
 ```bash
 $ id
 uid=1000(sj) gid=1000(sj) groups=1000(sj),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),120(lpadmin),131(lxd),132(sambashare)
 ```
 
-4. **groups:** This command is used to display all the groups for which the user belongs to.
+* **groups:** This command is used to display all the groups for which the user belongs to.
 
 ```bash
 $ group
 sj: sj, adm, cdrom, sudo, dip, plugdev, lpadmin, lxd, sambashare
 ```
 
-5. **finger:**  Used to check the information of any currently logged in users. i.e, It displays users login time, tty (name), idle time, home directory, shell name etc.
+* **finger:**  Used to check the information of any currently logged in users. i.e, It displays users login time, tty (name), idle time, home directory, shell name etc.
 
 ```bash
 $ finger
@@ -63,27 +63,27 @@ Login     Name       Tty      Idle  Login Time   Office     Office Phone
 sj        sj        *:0             Aug 28 01:27 (:0)
 ```
 
-   This may not be available by default in many linux machines. In this case, you need to install it manually.
+This may not be available by default in many linux machines. In this case, you need to install it manually.
 
 ```bash
 $ sudo apt install finger
 ```
 
-6. **users:** Displays usernames of all users currently logged on the system.
+* **users:** Displays usernames of all users currently logged on the system.
 
 ```bash
 $ users
 sj
 ```
 
-7. **grep:** It  is a powerful pattern searching tool to find information about a specific user from the system accounts file: /etc/passwd.
+* **grep:** It  is a powerful pattern searching tool to find information about a specific user from the system accounts file: /etc/passwd.
 
 ```cmd
 $ grep -i sj /etc/passwd
 sj:x:1000:1000:sj,,,:/home/sj:/bin/bash
 ```
 
-8. **W Command:** It(W) is a command-line utility that displays information about currently logged in users and what each user is doing.
+* **W Command:** It(W) is a command-line utility that displays information about currently logged in users and what each user is doing.
 
 ```bash
 w [OPTIONS] [USER]
@@ -94,7 +94,7 @@ USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 sj       :0       :0               01:27   ?xdm?   1:14   0.01s /usr/lib/gdm3/g
 ```
 
-9. **last or lastb:** Displays a list of last logged in users on the system. You can pass user names to display their login and hostname details.
+* **last or lastb:** Displays a list of last logged in users on the system. You can pass user names to display their login and hostname details.
 
 ```bash
 last [options] [username...] [tty...]
@@ -112,7 +112,7 @@ last [options] [username...] [tty...]
     wtmp begins Thu May 14 21:03:56 2020
 ```
 
-10. **lastlog:** The `lastlog` command is used to find the details of a recent login of all users or of a given user.
+* **lastlog:** The `lastlog` command is used to find the details of a recent login of all users or of a given user.
 
 ```bash
 $ lastlog
