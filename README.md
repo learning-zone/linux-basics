@@ -18,6 +18,7 @@
 | 8   | [**Search Files**](#search-files)                                       |
 | 9   | [**SSH**](#ssh)                                                         |
 | 10  | [**Vi Editor**](#vi-editor)                                             |
+| 11  | [**Bash Script**](#bash-script)                                         |
 
 ## User Information
 
