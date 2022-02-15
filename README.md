@@ -42,7 +42,7 @@ $ whoami
 Avani Punita
 ```
 
-* **id:** It display the user identification(the real and effective user and group IDs) information
+* **id:** It display the user identification ( the real and effective user and group IDs ) information
 
 ```bash
 $ id
