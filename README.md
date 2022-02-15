@@ -134,7 +134,7 @@ news                                       **Never logged in**
   <b><a href="#">↥ back to top</a></b>
 </div>
 
-## File and directory commands
+## File and Directory Commands
 
 1. **pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
 
@@ -275,7 +275,7 @@ rm -rf myDir
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## File permissions
+## File Permissions
 
 * chmod octal file – change the permissions of file to octal, which can be found separately for user, group, and world by adding
 * 4 – read (r)
@@ -483,7 +483,7 @@ ifconfig -a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Installing packages
+## Installing Packages
 
 1. **Install package:**
 
@@ -525,7 +525,7 @@ make install
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Disk usage
+## Disk Usage
 
 1.  **Synopsis:** `du` command is used to check the information of disk usage of files and directories on a machine
 
@@ -579,7 +579,7 @@ du  --help
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## System and Hardware information
+## System and Hardware Information
 
 1.  **Print all information**: `uname` is mainly used to print system information.
 
