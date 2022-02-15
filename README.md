@@ -31,7 +31,8 @@
 
 ```bash
 $ who
-Avani Punita :0 2019-08-04 01:21 (:0)
+admin    tty2         2022-02-10 01:36 (tty2)
+root     pts/1        2022-02-15 00:29 (10.190.95.154)
 ```
 
 * **whoami:** It display the system’s username
@@ -55,25 +56,11 @@ $ group
 sj: sj, adm, cdrom, sudo, dip, plugdev, lpadmin, lxd, sambashare
 ```
 
-* **finger:**  Used to check the information of any currently logged in users. i.e, It displays users login time, tty (name), idle time, home directory, shell name etc.
-
-```bash
-$ finger
-Login     Name       Tty      Idle  Login Time   Office     Office Phone
-sj        sj        *:0             Aug 28 01:27 (:0)
-```
-
-This may not be available by default in many linux machines. In this case, you need to install it manually.
-
-```bash
-$ sudo apt install finger
-```
-
 * **users:** Displays usernames of all users currently logged on the system.
 
 ```bash
 $ users
-sj
+root
 ```
 
 * **grep:** It  is a powerful pattern searching tool to find information about a specific user from the system accounts file: /etc/passwd.
@@ -99,17 +86,17 @@ sj       :0       :0               01:27   ?xdm?   1:14   0.01s /usr/lib/gdm3/g
 ```bash
 last [options] [username...] [tty...]
 
-    Example:
+Example:
 
-    last
-    sj       :0           :0               Fri Aug 28 01:27    gone - no logout
-    reboot   system boot  5.4.0-29-generic Fri Aug 28 01:27   still running
-    sj       :0           :0               Wed Jul 29 11:46 - crash (29+13:40)
-    reboot   system boot  5.4.0-29-generic Wed Jul 29 11:45   still running
-    sj       :0           :0               Thu May 14 21:04 - crash (75+14:41)
-    reboot   system boot  5.4.0-29-generic Thu May 14 21:03   still running
-
-    wtmp begins Thu May 14 21:03:56 2020
+root     pts/1        xx.xxx.xx.xxx    Tue Feb 15 00:29   still logged in
+root     pts/2        xx.xxx.xx.xxx    Mon Feb 14 03:45 - 06:59  (03:13)
+root     pts/1        xx.xxx.xx.xxx    Mon Feb 14 01:21 - 04:35  (03:13)
+root     pts/1        xx.xxx.xx.xxx    Sun Feb 13 21:28 - 00:43  (03:15)
+root     pts/1        xx.xxx.xx.xxx    Sun Feb 13 09:46 - 10:20  (00:33)
+root     pts/1        xx.xxx.xx.xxx    Sat Feb 12 21:30 - 23:44  (02:13)
+root     pts/1        xx.xxx.xx.xxx    Sat Feb 12 11:15 - 11:56  (00:40)
+root     pts/1        xx.xxx.xx.xxx    Sat Feb 12 11:08 - 11:15  (00:06)
+root     pts/1        xx.xxx.xx.xxx    Sat Feb 12 02:06 - 05:19  (03:12)
 ```
 
 * **lastlog:** The `lastlog` command is used to find the details of a recent login of all users or of a given user.
@@ -118,7 +105,7 @@ last [options] [username...] [tty...]
 $ lastlog
 
 Username         Port     From             Latest
-root                                       **Never logged in**
+root             pts/1    xx.xxx.xx.xxx    Tue Feb 15 00:29:27 -0500 2022
 daemon                                     **Never logged in**
 bin                                        **Never logged in**
 sys                                        **Never logged in**
