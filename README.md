@@ -6,21 +6,19 @@
 
 ## Table of Contents
 
-| No. | Topic                                                                   |
-| --- | ----------------------------------------------------------------------- |
-| 1   | [**User Information**](#user-information)                               |
-| 2   | [**File and Directory Commands**](#file-and-directory-commands)         |
-| 3   | [**File Permissions**](#file-permissions)                               |
-| 4   | [**Networking**](#networking)                                           |
-| 5   | [**Installing Packages**](#installing-packages)                         |
-| 6   | [**Disk Usage**](#disk-usage)                                           |
-| 7   | [**System and Hardware Information**](#system-and-hardware-information) |
-| 8   | [**Search Files**](#search-files)                                       |
-| 9   | [**SSH**](#ssh)                                                         |
-| 10  | [**Vi Editor**](#vi-editor)                                             |
-| 11  | [**Bash Script**](#bash-script)                                         |
+* [User Information](#-1-user-information)
+* [File and Directory Commands](#-2-file-and-directory-commands)
+* [File Permissions](#-3-file-permissions)
+* [Networking](#-4-networking)
+* [Installing Packages](#-5-installing-packages)
+* [Disk Usage](#-6-disk-usage)
+* [System and Hardware Information](#-7-system-and-hardware-information)
+* [Search Files](#-8-search-files)
+* [SSH](#-9-ssh)
+* [Vi Editor](#-10-vi-editor)
+* [Bash Script](#-11-bash-script)
 
-## User Information
+## # 1. User Information
 
 * **who** It is used to get information about currently logged in user on to system. If you don\'t provide any option or arguments, the command displays the following information for each logged-in user.
 
@@ -121,7 +119,7 @@ news                                       **Never logged in**
   <b><a href="#">↥ back to top</a></b>
 </div>
 
-## File and Directory Commands
+## # 2. Directory Commands
 
 1. **pwd** The pwd ( Present Working Directory ) command is used to print the name of the present/current working directory starting from the root.
 
@@ -233,7 +231,7 @@ rm -rf myDir
        cat file_name1 file_name2
        ```
 
-## File Commands
+## # 3. File Commands
 
 |Sl.No.| Commands    | Description              |
 |------|-------------|--------------------------|
@@ -262,7 +260,7 @@ rm -rf myDir
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## File Permissions
+## # 4. File Permissions
 
 * chmod octal file – change the permissions of file to octal, which can be found separately for user, group, and world by adding
 * 4 – read (r)
@@ -426,7 +424,7 @@ chmod +x foo.sh          # Give everybody execute permission
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Networking
+## # 5. Networking
 
 1.  **Display network information:** `ifconfig` command is used to display all network information ( ip address, ports etc )
 
@@ -470,7 +468,7 @@ ifconfig -a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Installing Packages
+## # 6. Installing Packages
 
 1. **Install package:**
 
@@ -512,7 +510,7 @@ make install
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Disk Usage
+## # 7. Disk Usage
 
 1.  **Synopsis:** `du` command is used to check the information of disk usage of files and directories on a machine
 
@@ -566,7 +564,7 @@ du  --help
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## System and Hardware Information
+## # 8. System and Hardware Information
 
 1.  **Print all information**: `uname` is mainly used to print system information.
 
@@ -602,7 +600,7 @@ $ uname -o
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Search Files
+## # 9. Search Files
 
 1. **Pattern search:**
 The `grep` command is used to search patterns in files.
@@ -707,7 +705,7 @@ locate "*.txt" -n 10 // 10 file search results ending with .txt extension
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## SSH
+## # 10. SSH
 
 SSH ( Secure Shell ) is a network protocol that enables secure remote connections between two systems.
 
@@ -781,7 +779,7 @@ sudo ssh service restart
 sudo sshd service restart
 ```
 
-### List of Basic SSH Commands
+### # 11. List of Basic SSH Commands
 
 |Sl.No.| Commands    | Description                                      |
 |------|-------------|--------------------------------------------------|
@@ -867,7 +865,7 @@ sudo sshd service restart
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Vi Editor
+## # 12. Vi Editor
 
 Vi editor is the most popular text editor from the early days of Unix. Whereas Vim ( Vi IMproved ) is an improved version of vi editor to be used in CLI ( command line interface ) for mainly text editing tasks in many configuration files. Some of the other alternatives are Elvis, Nvi, Nano, Joe, and Vile.
 It has two main operation modes,
@@ -1126,7 +1124,7 @@ O    # open a line above the current cursor position
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Process Management
+## # 13. Process Management
 
 |Sl.No.| Commands    | Description              |
 |------|-------------|--------------------------|
@@ -1142,7 +1140,7 @@ O    # open a line above the current cursor position
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## SSH
+## # 14. SSH
 
 * ssh user@host – connect to host as user
 * ssh -p port user@host – connect to host on port port as user
