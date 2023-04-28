@@ -121,7 +121,7 @@ news                                       **Never logged in**
 
 ## # 2. Directory Commands
 
-1. **pwd** The pwd ( Present Working Directory ) command is used to print the name of the present/current working directory starting from the root.
+1. **pwd** The pwd ( Print Working Directory ) command is used to print the name of the present/current working directory starting from the root.
 
 ```bash
 $ pwd
